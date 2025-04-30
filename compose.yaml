@@ -1,0 +1,6 @@
+﻿services:
+  testwolverinecqrs:
+    image: testwolverinecqrs
+    build:
+      context: .
+      dockerfile: TestWolverineCQRS/Dockerfile
